@@ -13,36 +13,36 @@
             <ColumnDefinition Width="280*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Orientation="Vertical" Grid.Column="0" >
-            <Button x:Name="csgo" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="Csgo" HorizontalAlignment="Left">
-                <Image Source="Images\csgo.png"/>
+            <Button x:Name="csgo" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="CsgoClick" HorizontalAlignment="Left">
+                <Image Source="images\csgo.png"/>
             </Button>
-            <Button x:Name="dota" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="dota_Click" HorizontalAlignment="Left">
-                <Image Source="Images\dota.jpg" Width="160"/>
+            <Button x:Name="dota" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="DotaClick" HorizontalAlignment="Left">
+                <Image Source="images\dota.jpg" Width="160"/>
             </Button>
-            <Button x:Name="minecraft" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="minecraft_Click" HorizontalAlignment="Left">
-                <Image Source="Images\minecraft.png" Width="160"/>
+            <Button x:Name="minecraft" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="MinecraftClick" HorizontalAlignment="Left">
+                <Image Source="images\minecraft.png" Width="160"/>
             </Button>
         </StackPanel>
         <StackPanel Orientation="Vertical" Grid.Column="1" >
-            <Button x:Name="gtaV" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="gtaV_Click" HorizontalAlignment="Left">
-                <Image Source="Images\gtaV.png"/>
+            <Button x:Name="gtaV" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="GtaVClick" HorizontalAlignment="Left">
+                <Image Source="images\gtaV.png"/>
             </Button>
-            <Button x:Name="red" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="red_Click" HorizontalAlignment="Left">
-                <Image Source="Images\redredemption.jpg" Width="160"/>
+            <Button x:Name="red" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="RDRClick" HorizontalAlignment="Left">
+                <Image Source="images\redredemption.jpg" Width="160"/>
             </Button>
-            <Button x:Name="metro" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="metro_Click" HorizontalAlignment="Left">
-                <Image Source="Images\metro.jpg" Width="160"/>
+            <Button x:Name="metro" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="MetroClick" HorizontalAlignment="Left">
+                <Image Source="images\metro.jpg" Width="160"/>
             </Button>
         </StackPanel>
         <StackPanel Orientation="Vertical" Grid.Column="2" >
-            <Button x:Name="sixSiege" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="sixSiege_Click" HorizontalAlignment="Left">
-                <Image Source="Images\sixsiege.png"/>
+            <Button x:Name="sixSiege" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="SixSiegeClick" HorizontalAlignment="Left">
+                <Image Source="images\sixsiege.png"/>
             </Button>
-            <Button x:Name="callOfDuty" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="callOfDuty_Click" HorizontalAlignment="Left">
-                <Image Source="Images\callofduty.jpg" Width="160"/>
+            <Button x:Name="callOfDuty" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="CalofDutyClick" HorizontalAlignment="Left">
+                <Image Source="images\callofduty.jpg" Width="160"/>
             </Button>
-            <Button x:Name="batlle" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="batlle_Click" HorizontalAlignment="Left">
-                <Image Source="Images\batlle.jpg" Width="160"/>
+            <Button x:Name="batlle" Width="170" Height="100" Margin="50 30 0 0" Background="White" BorderBrush="White" Click="BattleClick" HorizontalAlignment="Left">
+                <Image Source="images\batlle.jpg" Width="160"/>
             </Button>
         </StackPanel>
     </Grid>

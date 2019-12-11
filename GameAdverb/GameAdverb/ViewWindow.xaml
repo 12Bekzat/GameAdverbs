@@ -12,10 +12,13 @@
             <ColumnDefinition Width="695*"/>
             <ColumnDefinition Width="55*"/>
         </Grid.ColumnDefinitions>
+        <Grid.Background >
+            <ImageBrush x:Name="gridBackGround"/>
+        </Grid.Background>
         <Button x:Name="prevPage" FontSize="50" Foreground="Black" Grid.Column="0" Background="White" BorderBrush="White" Opacity="0" Click="PrevPage"/>
         <Image Source="Images\previous.png" MouseUp="PrevPage" Grid.Column="0"/>
         <Button x:Name="nextPage" FontSize="50" Foreground="Black" Grid.Column="2" Background="White" BorderBrush="White" Opacity="0" Click="NextPage"/>
         <Image Source="Images\next.png" MouseUp="NextPage" Grid.Column="2"/>
-        <Label Grid.Column="1" x:Name="page"/>
+        <Frame Grid.Column="1" x:Name="page"/>
     </Grid>
 </Window>

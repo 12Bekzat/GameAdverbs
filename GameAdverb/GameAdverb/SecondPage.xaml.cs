@@ -14,19 +14,14 @@ using System.Windows.Shapes;
 namespace GameAdverb
 {
     /// <summary>
-    /// Interaction logic for MainPage.xaml
+    /// Interaction logic for SecondPage.xaml
     /// </summary>
-    public partial class MainPage : Page
+    public partial class SecondPage : Page
     {
-        private Game Game = new Game();
-        public MainPage(Game game)
+        public SecondPage(Game game)
         {
             InitializeComponent();
-            Game = game;
-            nameGame.Text = game.Name;
-            priceGame.Text = game.Price.ToString();
-            realiseGame.Text = game.Realise.ToString();
-            logo.Source = new BitmapImage(new Uri(game.Logo));
+            description.Text = game.Description;
         }
     }
 }

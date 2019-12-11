@@ -9,9 +9,9 @@
       Title="MainPage">
 
     <Grid>
-        <Image x:Name="logo" Source="{Binding Logo}" Width="160" Height="160" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100 35 0 0"/>
-        <TextBlock x:Name="nameGame" FontSize="30" TextWrapping="Wrap" FontWeight="Bold" Width="350" Height="160" VerticalAlignment="Top" Margin="100 35 0 0"/>
-        <TextBlock x:Name="priceGame" FontSize="10" Width="530" Height="30" HorizontalAlignment="Left" Margin="100 300 0 0"/>
-        <TextBlock x:Name="realiseGame" FontSize="10" Width="530" Height="30" HorizontalAlignment="Left" Margin="100 380 0 0"/>
-    </Grid> 
+        <Image x:Name="logo" Width="160" Height="160" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="100 35 0 0"/>
+        <TextBlock x:Name="nameGame" FontSize="30" TextWrapping="Wrap" FontWeight="Bold" Width="350" Height="160" VerticalAlignment="Top" Margin="100 35 0 0" Foreground="White" Padding="100 0 0 0"/>
+        <TextBlock x:Name="priceGame" FontSize="30" Width="530" Height="30" HorizontalAlignment="Left" Margin="150 300 0 0" Foreground="White" FontWeight="Bold"/>
+        <TextBlock x:Name="realiseGame" FontSize="30" Width="530" Height="30" HorizontalAlignment="Left" Margin="150 380 0 0" Foreground="White" FontWeight="Bold"/>
+    </Grid>
 </Page>

@@ -6,4 +6,40 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="images\batlle.jpg" />
+    <None Remove="images\callofduty.jpg" />
+    <None Remove="images\csgo.png" />
+    <None Remove="images\csgoaction.jpg" />
+    <None Remove="images\CsGoIcon.png" />
+    <None Remove="images\dota.jpg" />
+    <None Remove="images\dotaaction.jpg" />
+    <None Remove="images\dotaLogo.png" />
+    <None Remove="images\gtaV.png" />
+    <None Remove="images\metro.jpg" />
+    <None Remove="images\minecraft.png" />
+    <None Remove="images\next.png" />
+    <None Remove="images\previous.png" />
+    <None Remove="images\redredemption.jpg" />
+    <None Remove="images\sixsiege.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\batlle.jpg" />
+    <Resource Include="images\callofduty.jpg" />
+    <Resource Include="images\csgo.png" />
+    <Resource Include="images\csgoaction.jpg" />
+    <Resource Include="images\CsGoIcon.png" />
+    <Resource Include="images\dota.jpg" />
+    <Resource Include="images\dotaaction.jpg" />
+    <Resource Include="images\dotaLogo.png" />
+    <Resource Include="images\gtaV.png" />
+    <Resource Include="images\metro.jpg" />
+    <Resource Include="images\minecraft.png" />
+    <Resource Include="images\next.png" />
+    <Resource Include="images\previous.png" />
+    <Resource Include="images\redredemption.jpg" />
+    <Resource Include="images\sixsiege.png" />
+  </ItemGroup>
+
 </Project>
